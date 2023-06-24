@@ -1,0 +1,17 @@
+.header-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 0;
+}
+.header-nav-list
+.header-nav-contacts{
+    display: flex;
+    gap: 50px;
+}
+.header-nav-lis li a:hover{
+    color:#2196F3;
+}
+.header-nav-contacts li a :hover{
+    color:#2196F3;
+}
