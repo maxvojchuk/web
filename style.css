@@ -1,17 +1,255 @@
-.header-nav{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 25px 0;
+.logo-part {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
-.header-nav-list
-.header-nav-contacts{
-    display: flex;
-    gap: 50px;
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: black;
 }
-.header-nav-lis li a:hover{
-    color:#2196F3;
+
+.studio,
+.portfolio,
+.contacts {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
-.header-nav-contacts li a :hover{
-    color:#2196F3;
+
+.studio:hover,
+.portfolio:hover,
+.contacts:hover,
+.mail:hover,
+.tel:hover {
+  color: #2196f3;
+}
+
+.contact-list {
+  font-family: "Roboto";
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
+.header-nav-wrapper {
+  display: flex;
+  gap: 90px;
+}
+
+.header-contacts {
+  display: flex;
+  gap: 50px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-main {
+  height: 600px;
+  background-color: #2f303a;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.header-title {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  width: 696px;
+  text-align: center;
+  color: #fff;
+}
+
+.order {
+  width: 216px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.advantages-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.adantages-list li {
+  width: 270px;
+}
+
+.advantages-discription {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.adantages-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.what-we-do-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.what-we-do-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.what-we-do-list img {
+  width: 370px;
+  height: 294px;
+}
+
+.our-team {
+  background: #f5f4fa;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.our-team-img {
+  width: 270px;
+  height: 260px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+}
+
+.our-team-card {
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.cards-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.our-team-titlee {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  color: #212121;
+  text-align: center;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+
+.our-team-title {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.our-team-job {
+  margin-bottom: 30px;
+  color: #757575;
+  text-align: center;
+  letter-spacing: 0.48px;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #2f303a;
+  display: flex;
+  height: 252px;
+  flex-direction: column;
+  width: 1600px;
+  justify-content: center;
+  padding-left: 10%;
+}
+
+.tel,
+.mail {
+  color: #757575;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.adress {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  font-weight: 400;
+}
+
+.footer-logo {
+  width: 145px;
+  height: 31px;
+  margin-bottom: 20px;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
