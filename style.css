@@ -259,8 +259,13 @@
   width: 270px;
   height: 120px;
 }
-.svg {
+.icon {
   width: 70px;
   height: 70px;
   padding: 25px 102px;
+  fill: #212121;
+
+}
+.icon:hover{
+  fill:  #2196F3;
 }
